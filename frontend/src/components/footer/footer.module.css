@@ -1,0 +1,19 @@
+.footer {
+  background-color: var(--grey-color-a);
+  width: 100%;
+  padding: 80px 0 86px;
+}
+
+.content {
+  max-width: 1120px;
+  margin: 0 auto;
+  border-top: 1px solid rgba(118, 118, 118, .25);;
+  padding-top: 21px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hidden {
+  display: none;
+}

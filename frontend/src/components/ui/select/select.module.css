@@ -1,0 +1,42 @@
+.content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.label {
+  opacity: .6;
+}
+
+.select {
+  outline: none;
+  border: none;
+  border-radius: var(--button-border-radius);
+  width: 100%;
+  padding: 12px 16px;
+  background-color: var(--grey-color-3);
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.select:focus {
+  outline: 1px solid var(--blue-color);
+}
+
+.select:focus:invalid {
+  outline: 1px solid var(--red-bg-color);
+}
+
+select::placeholder {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: var(--grey-color-9);
+}
+
+.error {
+  opacity: .6;
+}

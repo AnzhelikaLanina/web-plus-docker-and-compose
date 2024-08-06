@@ -1,0 +1,17 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 314px);
+  margin-top: 94px;
+}
+
+.title {
+  margin-bottom: 48px;
+}
+
+.cards_box {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-bottom: 100px;
+}

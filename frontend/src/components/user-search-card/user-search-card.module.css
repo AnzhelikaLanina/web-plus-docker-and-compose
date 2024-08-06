@@ -1,0 +1,28 @@
+.content {
+  width: 100%;
+  padding: 20px;
+  border-radius: var(--button-border-radius);
+  background-color: var(--grey-color-5);
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: var(--grey-color-7);
+}
+
+.data_box {
+  text-align: left;
+}
+
+.login {
+  opacity: .6;
+}
+
+.btn {
+  margin-left: auto;
+}

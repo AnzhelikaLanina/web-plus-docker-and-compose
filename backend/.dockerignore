@@ -1,0 +1,6 @@
+# Deps
+node_modules/
+
+# Dist
+dist/
+build/

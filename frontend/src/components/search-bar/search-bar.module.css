@@ -1,0 +1,12 @@
+.searchBar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.searchBar__input {
+  flex-grow: 1;
+}
+
+.button_secondary {
+  background-color: var(--black-color);
+}

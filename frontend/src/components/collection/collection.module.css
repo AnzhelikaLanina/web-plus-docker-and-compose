@@ -1,0 +1,102 @@
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.inactive {
+  background-color: var(--grey-color-5);
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.shadow {
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.13);
+  position: relative;
+  z-index: 1;
+}
+
+.right_btn {
+  margin-left: -20px;
+}
+
+.tabs_box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-bottom: 32px;
+  box-shadow: inset 0px -1px 0px rgba(0, 0, 0, 0.13);
+  margin-top: 130px;
+  margin-bottom: 60px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 64px;
+}
+
+.cards_box {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+  margin-bottom: 32px;
+}
+
+.btn {
+  align-self: center;
+}
+
+.text {
+  padding: 20px 20px 0;
+}
+
+.collection_box {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 272px 192px 192px;
+  grid-template-areas:
+    "fashion fashion fashion fashion fashion fashion fashion fashion fashion witches witches witches"
+    "director director director home home home music music music witches witches witches"
+    "minimal minimal minimal minimal . . . . . . . .";
+    gap: 32px;
+    margin-bottom: 110px;
+}
+
+.card {
+  text-decoration: none;
+}
+
+.fashion {
+  display: block;
+  background-image: url("../../images/fashion.jpg");
+  grid-area: fashion;
+}
+
+.witches {
+  display: block;
+  background-image: url("../../images/witches.jpg");
+  grid-area: witches;
+}
+
+.director {
+  display: block;
+  background-image: url("../../images/director.jpg");
+  grid-area: director;
+}
+
+.home {
+  display: block;
+  background-image: url("../../images/home.jpg");
+  grid-area: home;
+}
+
+.music {
+  display: block;
+  background-image: url("../../images/music.jpg");
+  grid-area: music;
+}
+
+.minimal {
+  display: block;
+  background-image: url("../../images/minimal.jpg");
+  grid-area: minimal;
+}

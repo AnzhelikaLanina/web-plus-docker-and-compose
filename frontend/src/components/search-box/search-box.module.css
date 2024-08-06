@@ -1,0 +1,15 @@
+.content {
+  width: 100%;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+
+.input {
+  flex-grow: 1;
+}
+
+.btn {
+  width: 160px;
+}

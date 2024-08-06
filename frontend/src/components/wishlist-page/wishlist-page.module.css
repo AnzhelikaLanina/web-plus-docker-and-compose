@@ -1,0 +1,68 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 314px);
+  margin-top: 94px;
+}
+
+.cards_box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  margin-top: 32px;
+  margin-bottom: 100px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 0;
+  margin-top: 16px;
+  box-shadow: inset 0px -1px 0px rgba(0, 0, 0, 0.13);
+}
+
+.btn_box {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.btn {
+  display: flex;
+  border: none;
+  outline: none;
+  background: none;
+  padding: 12px 16px;
+  cursor: pointer;
+  transition: var(--common-transition);
+}
+
+.btn:hover {
+  opacity: .7;
+}
+
+.border {
+  outline: 3px solid var(--blue-color);
+}
+
+.modal {
+  position: absolute;
+  top: 450px;
+  left: 67%;
+  padding: 20px;
+}
+
+.popup {
+  display: flex;
+  flex-direction: column;
+}
+
+.popup_btn_box {
+  display: flex;
+  gap: 20px;
+}
+
+.popup_btn {
+  width: 150px;
+}

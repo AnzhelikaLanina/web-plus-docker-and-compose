@@ -1,0 +1,103 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  max-width: 1120px;
+  margin: 60px auto 100px;
+}
+
+.data_box {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+
+.img {
+  width: 601px;
+  min-height: 100%;
+  object-fit: cover;
+  box-shadow: 0px 6px 20px rgba(141, 141, 141, 0.25);
+  border-radius: var(--card-border-radius);
+}
+
+.gift_data {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-grow: 1;
+  max-width: 352px;
+}
+
+.load {
+  margin-top: 34px;
+  margin-bottom: 62px;
+}
+
+.btns_box {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+}
+
+.btn {
+  width: 100%;
+}
+
+.link {
+  transition: var(--common-transition);
+  text-decoration: none;
+  border-bottom: 1px solid var(--black-color);
+}
+
+.link:hover {
+  opacity: .7;
+}
+
+.subtitle_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 32px;
+  box-shadow: inset 0px -1px 0px rgba(0, 0, 0, 0.13);
+}
+
+.load_btn {
+  align-self: center;
+  margin-top: 32px;
+}
+
+.modal {
+  width: 576px;
+}
+
+.popup {
+  display: flex;
+  flex-direction: column;
+}
+
+.gift_btns_box {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.price_btn {
+  width: 100%;
+  height: 48px;
+}
+
+.price_input {
+  height: 48px;
+}
+
+.supported_btn {
+  width: 100%;
+}
+
+.error {
+  color: red;
+  opacity: .8;
+  margin-top: 10px;
+  text-align: center;
+}

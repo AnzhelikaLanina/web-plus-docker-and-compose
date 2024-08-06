@@ -1,0 +1,42 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 144px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 480px;
+  margin-bottom: 64px;
+}
+
+.btn {
+  align-self: center;
+  margin-top: 64px;
+}
+
+.links_box {
+  display: flex;
+}
+
+.text {
+  opacity: .6;
+}
+
+.nav {
+  text-decoration: none;
+  transition: var(--common-transition);
+  margin-left: 8px;
+}
+
+.nav:hover {
+  opacity: 0.8;
+}
+
+.error {
+  color: red;
+  opacity: .8;
+  margin-top: 10px;
+}

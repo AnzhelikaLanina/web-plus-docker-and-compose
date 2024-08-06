@@ -1,0 +1,26 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 314px);
+  margin-top: 60px;
+}
+
+.description {
+  max-width: 448px;
+  text-align: left;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  flex-wrap: wrap;
+  margin-bottom: 126px;
+}
+
+.cards_box {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+  margin-bottom: 126px;
+}

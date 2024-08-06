@@ -1,0 +1,169 @@
+:root {
+  --background: #fff;
+  --offset-base-size: 2px;
+
+  --common-border-radius: 20px;
+  --card-border-radius: 10px;
+  --button-border-radius: 24px;
+
+  --text-primary-color: #000;
+  --text-secondary-color: #fff;
+  /* --text-additional-color: #aeaeb7; */
+  --white-color: #fff;
+  --black-color: #000;
+  --blue-color: #7b61ff;
+  --purpure-color: #db7093;
+  --grey-color-1: #f1f1f1;
+  --grey-color-2: #e2e2e2;
+  --grey-color-3: #eaebec;
+  --grey-color-5: #f5f5f5;
+  --grey-color-7: #e7e7e7;
+  --grey-color-8: #e8e8e8;
+  --grey-color-9: #999;
+  --grey-color-a: #fafafa;
+  --red-color: #f00;
+  --red-bg-color: #ff424d;
+  --green-color: #67db73;
+
+  --scrollbar-color: var(--scroll-track-color) var(--logout-btn-border);
+  --scrollbar-width: thin;
+
+  --common-transition: all 0.3s ease-in;
+}
+
+@-moz-document url-prefix() {
+  :root {
+    scrollbar-color: var(--scrollbar-color);
+  }
+}
+
+/* body::-webkit-scrollbar {
+  width: 12px;
+}
+body::-webkit-scrollbar-track {
+  background: var(--logout-btn-border);
+}
+body::-webkit-scrollbar-thumb {
+  background: var(--scroll-track-color);
+  border: 3px solid var(--logout-btn-border);
+  border-radius: 6px;
+} */
+
+body {
+  font-family: "Inter", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  margin: 0;
+  color: var(--text-primary-color);
+  background: var(--background);
+}
+
+/* Typography classes */
+
+.text {
+  margin: 0;
+  padding: 0;
+}
+
+.text_color_primary {
+  color: var(--text-primary-color);
+}
+
+.text_color_secondary {
+  color: var(--text-secondary-color);
+}
+
+.text_color_red {
+  color: var(--red-color);
+}
+
+.text_color_red-bg {
+  color: var(--red-bg-color);
+}
+
+/* .text_color_additional {
+  color: var(--text-additional-color);
+} */
+
+.text_type_h1 {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 44px;
+}
+
+.text_type_h2 {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 32px;
+}
+
+.text_type_cardh3 {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.text_type_main {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.text_type_button {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.text_type_link {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.text_type_message {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.text_type_small {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.text_type_footer {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}

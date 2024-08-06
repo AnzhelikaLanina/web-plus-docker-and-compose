@@ -1,0 +1,96 @@
+.header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 140px;
+  box-shadow: 0px 6px 20px rgba(141, 141, 141, 0.25);
+  width: calc(100% - 40px);
+  box-sizing: border-box;
+  border-radius: 100px;
+  margin: 0 20px;
+}
+
+.nav {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+  height: 100%;
+}
+
+.nav_inactive {
+  border-bottom: 2px solid var(--text-primary-color);
+}
+
+.nav_box {
+  display: flex;
+  align-items: center;
+  gap: 36px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.popup {
+  display: flex;
+  flex-direction: column;
+}
+
+.popup_btn {
+  width: 320px;
+  height: 48px;
+  background: none;
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: var(--common-transition);
+}
+
+.popup_btn:hover {
+  opacity: .7;
+}
+
+.line {
+  margin-top: 8px;
+  width: calc(100% - 20px);
+  border-bottom: 1px solid var(--grey-color-8);
+  align-self: center;
+}
+
+.edit {
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  margin-top: 8px;
+}
+
+.modal {
+  position: absolute;
+  top: 160px;
+  left: 51%;
+  padding: 12px 20px;
+}
+
+.gift_modal {
+  width: 576px;
+}
+
+.gift_form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.price_input {
+  width: 248px;
+}
+
+.gift_btn {
+  width: 100%;
+}

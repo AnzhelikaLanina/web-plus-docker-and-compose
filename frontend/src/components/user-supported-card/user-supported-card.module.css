@@ -1,0 +1,37 @@
+.content {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  box-shadow: inset 0px -1px 0px rgba(0, 0, 0, 0.13);
+}
+
+.img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: var(--grey-color-7);
+}
+
+.data_box {
+  text-align: left;
+}
+
+.link {
+  transition: var(--common-transition);
+  text-decoration: none;
+  border-bottom: 1px solid var(--black-color);
+}
+
+.link:hover {
+  opacity: 0.7;
+}
+
+.data_name_box {
+  width: 28%;
+}
+
+.data_box {
+  width: 31%;
+}

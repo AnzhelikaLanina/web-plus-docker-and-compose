@@ -1,0 +1,147 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 394px);
+}
+
+.inactive {
+  background-color: var(--grey-color-5);
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.shadow {
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.13);
+  position: relative;
+  z-index: 1;
+}
+
+.right_btn {
+  margin-left: -20px;
+}
+
+.tabs_box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-bottom: 32px;
+  box-shadow: inset 0px -1px 0px rgba(0, 0, 0, 0.13);
+  margin-top: 94px;
+  margin-bottom: 60px;
+}
+
+.tabs {
+  width: 544px;
+  background-color: var(--grey-color-5);
+  border-radius: var(--button-border-radius);
+}
+
+.tab {
+  width: 272px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 64px;
+}
+
+.collections {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.cards_box {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+  margin-bottom: 32px;
+}
+
+.btn {
+  align-self: center;
+}
+
+.text {
+  display: block;
+  aspect-ratio: 13/10;
+  padding: 20px 20px 0;
+  background-color: rgba(42, 44, 47, .3);
+  border-radius: var(--card-border-radius);
+  transition: var(--common-transition);
+}
+
+.text:hover {
+  background-color: rgba(42, 44, 47, .6);
+}
+
+.card {
+  position: relative;
+  text-decoration: none;
+  width: 256px;
+  border-radius: var(--card-border-radius);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.collection_modal {
+  width: 576px;
+}
+
+.collection_form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.collection_btn {
+  width: 100%;
+}
+
+.wishes {
+  display: flex;
+  flex-direction: column;
+  max-height: 200px;
+  overflow-y: scroll;
+  margin-bottom: 30px;
+}
+
+.wishes_text {
+  opacity: .6;
+}
+
+.checkbox {
+  cursor: pointer;
+}
+
+.popup {
+  display: flex;
+  flex-direction: column;
+}
+
+.popup_btn_box {
+  display: flex;
+  gap: 20px;
+}
+
+.error {
+  color: red;
+  opacity: .8;
+  margin-bottom: 12px;
+}
+
+.remove_btn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: var(--common-transition);
+}
+
+.remove_btn:hover {
+  opacity: .7;
+}

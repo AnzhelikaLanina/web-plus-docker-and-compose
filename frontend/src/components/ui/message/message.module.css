@@ -1,0 +1,17 @@
+.content {
+  width: 393px;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  border-radius: var(--button-border-radius);
+  background-color: var(--green-color);
+  box-shadow: 0px 6px 20px rgba(141, 141, 141, 0.25);
+}
+
+.text {
+  text-align: center;
+}
+
+.error {
+  background-color: var(--red-bg-color);
+  color: var(--text-secondary-color);
+}
