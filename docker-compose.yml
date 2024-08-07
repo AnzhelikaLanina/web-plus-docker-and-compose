@@ -29,7 +29,7 @@ services:
     depends_on:
       - backend
     networks:
-      - backend
+      - frontend
   postgres:
     container_name: 'postgres'
     image: postgres:latest
