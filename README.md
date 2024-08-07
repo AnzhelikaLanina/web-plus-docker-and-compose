@@ -1,5 +1,5 @@
 # Докеризация приложения
 
  - IP адрес 51.250.33.219
- - Frontend kupipodariday.project.nomorepartiesco.ru
- - Backend api.kupipodariday.project.nomorepartiesco.ru
+ - Frontend  https://kupipodariday.project.nomorepartiesco.ru
+ - Backend  https://api.kupipodariday.project.nomorepartiesco.ru
